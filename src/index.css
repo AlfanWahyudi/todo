@@ -54,6 +54,39 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+form {
+  display: flex;
+  min-width: 450px;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+form .title {
+  text-align: center;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-control input {
+  padding: 0.5rem;
+}
+
+.error-messages {
+  padding: 0.8rem;
+  background-color: rgba(240, 135, 135, 0.342);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
