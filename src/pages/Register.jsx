@@ -30,7 +30,7 @@ export default function RegisterPage() {
           <label htmlFor="password">Password</label>
           <input type="password" id="password" name="password" required />
         </div>
-        <p>Login jika sudah punya akun, <Link to="/login">di sini</Link>.</p>
+        <p>Login jika sudah punya akun, <Link to="/">di sini</Link>.</p>
         <button type="submit">Register</button>
       </Form>
     </section>
